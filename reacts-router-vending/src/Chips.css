@@ -1,0 +1,36 @@
+.Chips {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Chips button:hover {
+    cursor: pointer;
+  }
+  
+  .Chips button:active,
+  .Chips button:focus {
+    outline: none;
+  }
+  
+  .bag {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .nom-button {
+    background-color: yellow ;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 49%;
+  }
+  
+  .bags-eaten {
+    position: absolute;
+    top: 30px;
+    left: 48%;
+  }
